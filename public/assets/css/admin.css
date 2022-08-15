@@ -1,0 +1,122 @@
+/* header nav ul{
+    margin-left: 100px;
+} */
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+body{
+    background: #ddd;
+}
+.navbar{
+    font-weight: 600;
+}
+.nav-link.active{
+    color: #1171ef !important;
+    border-bottom: #1171ef 2px solid;
+}
+.boxs {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.boxs .box {
+    border: 3px solid var(--bs-light);
+    border-radius: 9px;
+    background-color: #FFF;
+    padding: 10px 5px;
+    /* text-align: center; */
+    /* color: #FFF; */
+}
+
+.box .box-icon,
+.box .box-name{
+    display: inline-block;
+}
+
+.box .box-icon{
+    border-radius: 50%;
+}
+.boxs .box .number{
+    border-radius: 50%;
+    /* background: linear-gradient(87deg, #f5365c 0, #f56036 100%); */
+    height: 90px;
+    width: 90px;
+    color: #FFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .box-name{
+    font-size: 22px;
+    font-weight: 700;
+    color: #807d7d;
+}
+
+.box .box-icon.one{
+    /* background-color: var(--bs-orange); */
+    background: linear-gradient(87deg, #f5365c 0, #f56036 100%);
+}
+
+.box .box-icon.two{
+    background: linear-gradient(87deg, #fb6340 0, #fbb140 100%);
+}
+.box .box-icon.three{
+    background: linear-gradient(87deg, #11cdef 0, #1171ef 100%);
+}
+.box .box-icon.four{
+    background: linear-gradient(87deg, #8cffcd 0, #2dce89 100%);
+    /* background-color: #2dce89; */
+}
+
+.items{
+    padding: 3px 5px;
+}
+
+.items .item{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.items .item:hover{
+    background: #ddd;
+}
+
+.item .item-action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+}
+
+.item .item-action a:nth-child(2){
+    color: #7c7c7c !important;
+}
+
+.item .item-image,
+.item .item-name{
+    display: inline-block;
+}
+
+.item .item-image{
+    padding: 0;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+.item .item-image img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.pagination {
+    justify-content: center;
+}
